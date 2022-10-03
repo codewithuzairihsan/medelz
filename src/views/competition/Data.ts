@@ -1,4 +1,5 @@
 import img from "./Competition.png";
+import CategoryImage from '../categories/music.png'
 export const Data = [
   {
     key: "1",
@@ -29,3 +30,36 @@ export const Data = [
     imgurl: img,
   },
 ];
+
+export const Images = [
+  {
+    key: '1',
+    title: 'Music',
+    CategoryImage: CategoryImage
+  },
+  {
+    key: '2',
+    title: 'Music',
+    CategoryImage: CategoryImage
+  },
+  {
+    key: '3',
+    title: 'Music',
+    CategoryImage: CategoryImage
+  },
+  {
+    key: '4',
+    title: 'Music',
+    CategoryImage: CategoryImage
+  },
+  {
+    key: '5',
+    title: 'Music',
+    CategoryImage: CategoryImage
+  },
+  {
+    key: '6',
+    title: 'Music',
+    CategoryImage: CategoryImage
+  },
+]
