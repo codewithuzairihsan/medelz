@@ -5,7 +5,7 @@ import Navbar from "../navbar/Navbar";
 import "antd/dist/antd.min.css";
 import { Main } from "./DashBoard.style";
 import { Competition } from "../competition/Competition";
-import Categories from "../categories/Categories";
+import Categories from "../categories/CategoryHeading";
 
 const Dashboard = () => {
   const subtitle = "Share your Talent with the world & earn Medelz";
