@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useState } from "react";
+import { Modal } from "antd";
 import {
   CategoryImageDiv,
   CategoryImageRow,
@@ -8,7 +9,19 @@ import {
   CategoryImageTitle,
 } from "./CategoryImages.style";
 import { Images } from "../competition/Data";
+
 const CategoryImages = () => {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const showModal = () => {
+    setIsModalOpen(true);
+  };
+  const handleOk = () => {
+    setIsModalOpen(false);
+  };
+  const handleCancel = () => {
+    setIsModalOpen(false);
+  };
   return (
     <>
       <CategoryImageDiv>
@@ -21,7 +34,7 @@ const CategoryImages = () => {
                   alt="music"
                   preview={false}
                 />
-                <CategoryImageTitle>
+                <CategoryImageTitle onClick={showModal}>
                   <h3>{item.title}</h3>
                 </CategoryImageTitle>
               </CategoryImageCol>
@@ -29,6 +42,14 @@ const CategoryImages = () => {
           })}
         </CategoryImageRow>
       </CategoryImageDiv>
+      <Modal
+        title="Basic Modal"
+        visible={isModalOpen}
+        onOk={handleOk}
+        onCancel={handleCancel}
+      >
+        <p>Title</p>
+      </Modal>
     </>
   );
 };

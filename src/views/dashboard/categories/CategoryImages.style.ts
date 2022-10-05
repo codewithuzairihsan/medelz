@@ -2,8 +2,8 @@ import { Col, Image, Row } from "antd";
 import styled from "styled-components";
 // this is main div of Images
 const CategoryImageDiv = styled.div`
-  width: 80%;
-  margin: auto;
+  /* min-width: 100px; */
+  /* margin: auto; */
   text-align: center;
 `;
 
@@ -15,7 +15,7 @@ const CategoryImageRow = styled(Row)`
 
 // This is Cols inside div of pictures
 const CategoryImageCol = styled(Col)`
-  flex-basis: 33.33%;
+  flex-basis: 33.3333%;
   /* border-radius: 10px; */
   margin-bottom: -8px;
   position: relative;
@@ -24,21 +24,22 @@ const CategoryImageCol = styled(Col)`
 
 // This is the images inside div
 const CategoryImage = styled(Image)`
-  width: 100%;
-  display: block;
+  width: 510px;
+  /* display: inline-block; */
 `;
 
 // This is hover effect on images in which the title appear from the bottom
 const CategoryImageTitle = styled.div`
-  background: transparent;
+  background: linear-gradient(rgba(15,9,30,0.4),rgba(4,9,30,0.3));
   height: 100%;
   width: 100%;
   position: absolute;
   top: 0;
   left: 0;
   transition: 0.5s;
+  cursor: pointer;
   &:hover {
-    background: rgba(120, 190, 33, 0.3);
+    background: transparent;
   }
   h3 {
     width: 100%;
