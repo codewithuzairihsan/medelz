@@ -2,7 +2,7 @@ import styled from 'styled-components'
 import discover from "./dicover.png";
 import {Image} from 'antd'
 const DiscoverDiv = styled.div`
-/* background: black; */
+background: black;
 width: 100%;
  >.ant-image{
    display: block;
