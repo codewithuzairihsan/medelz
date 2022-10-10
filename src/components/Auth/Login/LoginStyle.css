@@ -1,0 +1,112 @@
+/* .Login_backGround{
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(15,9,30,0.5),rgba(4,9,30,0.5)), url("LoginBackground.png");
+    background-position: center;
+    position: relative;
+} */
+/* .container{
+    margin: auto;
+    top: 12px;
+    height: 70vh;
+    width: 50%;
+    margin-top: -10px;
+} */
+
+/* .h1, .h2, .h3 , .h4, .h5, .h6{
+    color: #fff;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 500;
+    margin-bottom: 0.5em;
+} */
+/* h5{
+    color: #fff;
+    text-align: center;
+    margin-top: 10px;
+} */
+/* .ant-form{
+   
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+} */
+
+/* .form-control{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+    margin: 11px -15px;
+    position: relative;
+} */
+/* .form-control input{
+    margin-top: 3px;
+    background-color: rgba(48, 48, 48, 1);
+    border: 2px solid rgba(48, 48, 48, 1);
+    width: 100%;
+    color: white;
+    height: 200%;
+    border-radius: 20px;
+    transition: 0.5s ease-in-out;
+    padding-left: 50px;
+} */
+/* .form-control input:hover{
+    border: 2px solid rgba(108, 122, 137, 1);
+} */
+.form-control i{
+    position: absolute;
+    left: 30px;
+}
+.fa-user{
+color: #979797;
+width: 33px;
+height: 15px;
+position: absolute;
+z-index: 1;
+left: 25px;
+top: 12px;
+}
+.fa-lock{
+color:  #979797;
+width: 37px;
+height: 15px;
+position: absolute;
+z-index: 2;
+left: 25px;
+top: 12px;
+}
+/* #email-input{
+    background: rgba(48, 48, 48, 1);
+    border: 2px solid rgba(48, 48, 48, 1);
+    width: 100%;
+    color: white;
+    border-radius: 20px;
+    transition: 0.5s ease-in-out;
+    padding-left: 50px;
+    
+} */
+/* #email-input:hover{
+    border: 2px solid rgba(108, 122, 137, 1);
+} */
+/* #password-input{
+    background: rgba(48, 48, 48, 1);
+    border: 2px solid rgba(48, 48, 48, 1);
+    width: 100%;
+    color: white;
+    border-radius: 20px;
+    transition: 0.5s ease-in-out;
+    padding-left: 36px;
+} */
+/* #password-input:hover{
+border: 2px solid rgba(108, 122, 137, 1);
+} */
+/* .ant-row
+{
+    display: flex;
+    justify-content: center;
+    border: 2px solid white;
+} */
