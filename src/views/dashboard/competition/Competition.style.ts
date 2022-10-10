@@ -57,16 +57,12 @@ const StyledCarouselImageCol = styled(StyledCarouselCol)``;
 
 const StyledCarouselButton = styled(Button)`
   margin-top: 20px;
-  /* padding: 15px 25px; */
-  /* background: transparent; */
   border: 2px solid white;
-  /* color: white; */
   font-size: 23px;
   font-weight: 200;
   height: 60px;
   > span {
     padding: 3.5px 15px;
-    /* text-align: center; */
   }
 `;
 
